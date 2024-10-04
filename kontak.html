@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3a3a3a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #4CAF50;
+            padding: 15px 0;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            line-height: 1.6;
+            color: #666;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            height: 150px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            color: #333;
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #3a3a3a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kontak Saya</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a> |
+    <a href="profil.html">Profil</a> | 
+    <a href="about.html">About</a> | 
+    <a href="galery.html">Gallery</a> | 
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+    <h1>Hubungi Saya</h1>
+    <p>Jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang saya, jangan ragu untuk menghubungi saya menggunakan formulir di bawah ini.</p>
+
+    <form action="#" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email anda" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" placeholder="Tulis pesan anda disini" required></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="contact-info">
+        <p>Email: muhamadrfl36@gmail.com</p>
+        <p>Telepon: +62 896 3890 7520</p>
+        <p>Alamat: Jl. Lebak Wangi RT/RW : 03/01 No.44 Kelurahan Pamegarsari Kecamatan Parung Kabupaten Bogor Provinsi Jawa Barat 16330.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kontak Pribadi. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
